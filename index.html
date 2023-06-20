@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+    crossorigin="anonymous">
+
+    <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+
+<script>
+$(function() {
+   $( "#navbar-nav" ).menu();
+</script>
+
+<style>
+.ui-menu{
+width: 150px;}
+img{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    filter: brightness(1.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;  }
+    .navbar-brand{
+      font-size: 35px;
+    }
+
+    .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          user-select: none;
+        }
+        h1{
+          text-align: center;
+          color: #FFFFFF;
+        }
+        main{
+          padding: 0;
+          margin: 0;
+        }
+p{
+  text-align: center;
+  color: white;
+}
+label{
+  color: white;
+}
+#currency{
+  font-size: small;
+  margin-right: 20px;
+}
+.containerb{
+  display: block;
+  margin:auto;
+margin-top: 250px;
+  width: 50%;
+  color: white;
+}
+.lead{
+  color: black;
+}
+</style>
+    <body>
+
+    <img class="bg-img" src="univers.jpg" alt="universum">
+
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
+    <div class="container">
+      <a class="navbar-brand" href="#">Dreamworldz</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+
+  <label for="currency">Currency to pay</label>
+  <select id="currency" name="currency">
+    <option value="en-US">US $</option>
+    <option value="de-DE">EUR &#x20AC;</option>
+    <option value="ja-JP">YEN &#xA5;</option>
+  </select>
+<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Selection
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Music type</a></li>
+              <li><a class="dropdown-item" href="#">Music length</a></li>
+              <li><a class="dropdown-item" href="#">Guided meditation</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main >
+
+
+<div class="containerb">
+
+
+  <h1>Welcome</h1>
+    <p class="lead fw-lg fw-black fw-bold">Dreamworldz will take you away in a magical universe where relaxation will give you a new meaning. Get the sleep you deserve...</p>
+    <p class="lead">
+      <a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white">Learn more</a>
+    </p>
+</div>
+</main>
+
+<script>
+
+window.alert("Maak gebruik van alle voordelen die wij te bieden hebben!")
+</script>
+
+  </body>
+  </html>
